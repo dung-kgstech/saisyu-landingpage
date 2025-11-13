@@ -1,0 +1,69 @@
+/*
+Theme Name: website-name
+Theme URL: https://url.jp
+Author: wp-template
+Description: テンプレートデータ
+Version: 1.0
+*/
+
+
+.saiyu-custom-header {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;       
+    padding: 20px 35px;         
+    background-color: #ffffff;  
+}
+
+.saiyu-logo-wrapper img {
+    height: 20px;
+    width: auto;
+}
+
+.saiyu-nav-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;  
+}
+
+.saiyu-nav-wrapper li {
+    margin: 0 25px;
+}
+
+.saiyu-nav-wrapper a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.saiyu-cta-wrapper {
+    display: flex; 
+    align-items: center;
+}
+
+.saiyu-button {
+    padding: 14px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.phone-button {
+    background-color: #1E252D; 
+}
+
+.contact-button {
+    background-color: #11161B; 
+}
+
+.phone-button i {
+    margin-right: 8px;
+}

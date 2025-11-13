@@ -13,13 +13,6 @@ wp-*.php
 # 🧩 2️⃣ wp-content
 # =======================================
 # Ignore tất cả, trừ theme & plugin bạn tự phát triển
-/wp-content/*
-!/wp-content/themes/
-/wp-content/themes/*
-!/wp-content/themes/mytheme/
-!/wp-content/plugins/
-/wp-content/plugins/*
-!/wp-content/plugins/myplugin/
 
 # Uploads, cache, upgrade
 /wp-content/uploads/
