@@ -1,0 +1,89 @@
+# =======================================
+# 🧩 1️⃣ WordPress Core
+# =======================================
+/wp-admin/
+/wp-includes/
+license.txt
+readme.html
+index.php
+xmlrpc.php
+wp-*.php
+
+# =======================================
+# 🧩 2️⃣ wp-content
+# =======================================
+# Ignore tất cả, trừ theme & plugin bạn tự phát triển
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/mytheme/
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/myplugin/
+
+# Uploads, cache, upgrade
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# =======================================
+# 🧩 3️⃣ Cấu hình & môi trường
+# =======================================
+wp-config.php
+wp-config-sample.php
+.env
+*.env.local
+*.log
+*.sql
+*.zip
+*.tar
+*.bak
+
+# Ignore .htaccess thực tế, nhưng giữ lại file mẫu
+.htaccess
+!.htaccess.example
+
+# =======================================
+# 🧩 4️⃣ Docker & Dev Tools
+# =======================================
+# Giữ docker-compose.yml (quan trọng)
+# Ignore override hoặc file riêng tư
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# =======================================
+# 🧩 5️⃣ Thư viện & công cụ
+# =======================================
+/vendor/
+/node_modules/
+package-lock.json
+yarn.lock
+composer.lock
+
+# =======================================
+# 🧩 6️⃣ IDE & Hệ thống
+# =======================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =======================================
+# 🧩 7️⃣ File tạm, backup, log
+# =======================================
+*.tmp
+*.swp
+*.orig
+*.old
+*.bak
+*.log
