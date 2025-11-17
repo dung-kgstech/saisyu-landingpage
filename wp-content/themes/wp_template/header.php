@@ -29,28 +29,31 @@
 	<header class="saiyu-custom-header">
 		<div class="saiyu-logo-wrapper">
 			<a href="/">
-				<img src="https://saisyutechno.infinityfree.me/wp-content/uploads/2025/11/logo.png" alt="Saisyu Techno Logo">
+				<img style="width: 270px" class="logo" src="https://saisyutechno.infinityfree.me/wp-content/uploads/2025/11/logo.png" alt="Saisyu Techno Logo">
 			</a>
 		</div>
 
 		<nav class="saiyu-nav-wrapper">
-			<ul>
-				<li><a href="#">Cam kết</a></li>
-				<li><a href="#">Thiết bị</a></li>
-				<li><a href="#">Triển khai</a></li>
-				<li><a href="#">Công ty</a></li>
-				<li><a href="#">Chuyên mục</a></li>
-				<li><a href="#">Tin tức</a></li>
-			</ul>
+
+			<div class="saiyu-cta-wrapper">
+				<ul>
+					<li><a href="#">Cam kết</a></li>
+					<li><a href="#">Thiết bị</a></li>
+					<li><a href="#">Triển khai</a></li>
+					<li><a href="#">Công ty</a></li>
+					<li><a href="#">Chuyên mục</a></li>
+					<li><a href="#">Tin tức</a></li>
+				</ul>
+				<a href="/">
+					<img style="width: 100px"
+						class="contact"
+						src="<?php echo get_template_directory_uri(); ?>/images/btn_contact.png"
+						alt="Saisyu Techno Logo">
+				</a>
+
+			</div>
 		</nav>
 
-		<div class="saiyu-cta-wrapper">
-			<a href="tel:0120-939-578" class="saiyu-button phone-button">
-				<i class="fas fa-phone-alt"></i> 0120-939-578
-			</a>
-			<a href="/lien-he" class="saiyu-button contact-button">
-				LIÊN HỆ NGAY
-			</a>
-		</div>
+
 
 	</header>

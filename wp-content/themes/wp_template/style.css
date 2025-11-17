@@ -2,13 +2,20 @@
     display: flex;            
     justify-content: space-between; 
     align-items: center;       
-    padding: 20px 35px;         
-    background-color: #ffffff;  
+    height: 100px;
+    /* background-color: #ffffff;   */
 }
 
-.saiyu-logo-wrapper img {
-    height: 20px;
+.saiyu-logo-wrapper {
+    width: 270px;
+    height: auto;
+    padding: 20px 35px;         
     width: auto;
+}
+
+img .contact{
+  width: 100px;
+  height: 100px;
 }
 
 .saiyu-nav-wrapper ul {
@@ -32,13 +39,13 @@
 .saiyu-cta-wrapper {
     display: flex; 
     align-items: center;
-}
+} 
 
 .saiyu-button {
-    padding: 14px 22px;
-    border-radius: 4px;
+    height: 100px;
+    width: 100px;
     text-decoration: none;
-    color: #ffffff;
+    background-color: #0085B2;
     font-weight: bold;
     font-size: 14px;
     margin-left: 15px;
