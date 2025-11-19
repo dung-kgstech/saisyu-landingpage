@@ -55,8 +55,25 @@
 	</div>
 </section>
 
-<section class="">
-
+<section class="archive">
+	<div class="archive_content">
+		<div class="archive_list">
+			<div class="archive_list_1">
+				<span>Hyper Strong Cool</span>
+				<p>Giúp nhà xưởng của bạn luôn thoáng mát</p>
+			</div>
+			<div class="archive_list_2">
+				<div class="archive_items">
+					<span>100+</span>
+					<p>Sản phẩm được bán ra</p>
+				</div>
+				<div class="archive_items">
+					<span>95%</span>
+					<p>Khách hàng hài lòng với sản phẩm</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="feature">
