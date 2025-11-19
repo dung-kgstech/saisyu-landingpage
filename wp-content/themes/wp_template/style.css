@@ -289,3 +289,46 @@ footer {
     text-align: center;
     width: 500px;
 }
+
+.archive_content{
+  height: 320px;
+  background-color: #0D99FF;
+  align-content: center;
+}
+
+.archive_list{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.archive_list_1 p{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    justify-content: space-between;
+}
+.archive_list_1 span{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.archive_list_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.archive_items span{
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.archive_items p{
+    color: #fff;
+    font-size: 30px;
+    margin:  0 0;
+    font-weight: bold;
+}
