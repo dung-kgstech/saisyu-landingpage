@@ -272,6 +272,7 @@ footer {
 
 .feature_list{
   width: 100%;
+  max-width: 1280px;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -293,13 +294,15 @@ footer {
 .archive_content{
   height: 320px;
   background-color: #0D99FF;
-  align-content: center;
+  justify-items: center;
 }
 
 .archive_list{
     padding: 20px 100px;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-around;
 }
 
 .archive_list_1 p{
@@ -331,4 +334,72 @@ footer {
     font-size: 30px;
     margin:  0 0;
     font-weight: bold;
+}
+
+
+.video_list{
+  padding: 20px 100px;
+  display: flex;
+  gap: 100px;
+ }
+
+.video_items span{
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.video_items p{
+    color: #000;
+    font-size: 28px;
+    margin:  0 0;
+    font-weight: 400;
+}
+
+.video{
+  padding-bottom: 100px;
+}
+
+.video_btn{
+  display: flex;
+  gap: 50px
+}
+
+.btn_hero_1{
+  color: #0085B2;
+  text-decoration: none;
+  align-self: center;
+}
+
+.icon-right{
+  height: 15px;
+}
+
+.main {
+  background-image: url('images/backgroundmain.png');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100vw;                
+}
+
+.infomation_items span{
+  color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-images{
+  width: 50%;
+  text-align: end;
+}
+
+.hero-infomation{
+    justify-items: center;
+    background-image: url('images/background-infomation.png');
+}
+
+.infomation_list_2{
+  align-self: center;
 }
