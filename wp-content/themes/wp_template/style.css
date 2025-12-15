@@ -255,7 +255,7 @@ footer {
 
 }
 
-.hero_feature_subtitle{
+.content-subtitle{
     text-align: center;
     font-size: 28px;
     font-weight: bold;
@@ -403,3 +403,150 @@ footer {
 .infomation_list_2{
   align-self: center;
 }
+
+
+.content{
+      justify-items: center;
+}
+
+.feedback {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #eaf7fb, #f6fcff);
+}
+
+.feedback .content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.content-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0a6aa1;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.feedback-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feedback-item {
+  background: #e6f4fa;
+  border-radius: 12px;
+  padding: 30px 25px;
+  width: 32%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.feedback-item::before {
+  content: "“";
+  font-size: 50px;
+  color: #2aa7da;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.feedback-item .avatar {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+}
+
+.feedback-item .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #222;
+}
+
+.feedback-item span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.feedback-item p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.product {
+  padding: 90px 0;
+  background: linear-gradient(180deg, #dff4fb, #eaf9ff);
+}
+
+.product .content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.product .content-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0087b8;
+  margin-bottom: 60px;
+}
+
+.product-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.product-item {
+  width: 30%;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: 260px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.product-item p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.product-btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background: #0087b8;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.product-btn:hover {
+  background: #006e95;
+}
+
+

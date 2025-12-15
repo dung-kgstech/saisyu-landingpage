@@ -21,9 +21,9 @@
 	</section>
 
 	<section class="feature">
-		<div class="hero-feature">
-			<div class="hero-feature-content">
-				<p class="hero_feature_subtitle">Các tính năng chính</p>
+		<div class="content">
+			<div>
+				<p class="content-subtitle">Các tính năng chính</p>
 
 				<p class="feature_titlte">Công nghệ làm mát tiên tiến cho các nhà xưởng, kho bãi ngành công nghiệp hiện đại</p>
 
@@ -77,9 +77,9 @@
 	</section>
 
 	<section class="feature">
-		<div class="hero-feature">
-			<div class="hero-feature-content">
-				<p class="hero_feature_subtitle">Cam kết của chúng tôi</p>
+		<div class="content">
+			<div>
+				<p class="content-subtitle">Cam kết của chúng tôi</p>
 			</div>
 			<div class="feature_list">
 				<div class="feature_item">
@@ -110,9 +110,9 @@
 
 
 	<section class="video">
-		<div class="hero-feature">
-			<div class="hero-feature-content">
-				<p class="hero_feature_subtitle">Hiệu suất</p>
+		<div class="content">
+			<div>
+				<p class="content-subtitle">Hiệu suất</p>
 			</div>
 			<div class="video_list">
 				<div class="video_list_1">
@@ -151,7 +151,7 @@
 		</div>
 	</section>
 
-	<section class="video">
+	<section class="information">
 		<div class="hero-infomation">
 			<div class="video_list">
 				<div class="hero-images">
@@ -177,5 +177,99 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="feedback">
+		<div class="content">
+			<p class="content-subtitle">NHẬN XÉT CỦA KHÁCH HÀNG</p>
+
+			<div class="feedback-list">
+				<!-- Item 1 -->
+				<div class="feedback-item">
+					<div class="avatar">
+						<img src="avatar1.png" alt="Anh Hùng">
+					</div>
+					<h3>Anh Hùng</h3>
+					<span>Quản lý xưởng cơ khí</span>
+					<p>
+						Trước đây xưởng lúc nào cũng nóng hầm hập, đặc biệt vào mùa hè.
+						Từ khi lắp Hyper Strong Cool, không khí mát hẳn, anh em làm việc
+						đỡ mệt và hiệu suất tăng rõ rệt.
+					</p>
+				</div>
+
+				<!-- Item 2 -->
+				<div class="feedback-item">
+					<div class="avatar">
+						<img src="avatar2.png" alt="Chị Lan">
+					</div>
+					<h3>Chị Lan</h3>
+					<span>Nhân viên vận hành máy</span>
+					<p>
+						Máy chạy êm, không gây ồn và làm mát rất nhanh.
+						Không khí dễ chịu hơn nhiều, đặc biệt là những ngày nắng gắt.
+					</p>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="feedback-item">
+					<div class="avatar">
+						<img src="avatar3.png" alt="Anh Duy">
+					</div>
+					<h3>Anh Duy</h3>
+					<span>Technical Officer</span>
+					<p>
+						Tôi chọn Hyper Strong Cool vì tiết kiệm điện hơn điều hòa,
+						mà vẫn đủ mát cho cả phân xưởng rộng. Đây là khoản đầu tư rất đáng giá.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="product">
+		<div class="content">
+			<p class="content-subtitle">CÁC THIẾT BỊ LÀM MÁT KHÁC</p>
+
+			<div class="product-list">
+				<!-- Item 1 -->
+				<div class="product-item">
+					<img src="product1.png" alt="Strong Cool 7">
+					<h3>Strong Cool 7</h3>
+					<p>
+						Gió có thể thổi xa tới 12m! Dùng điện 100V nhưng vẫn nhỏ gọn
+						và lưu lượng gió lớn. Có bánh xe dễ dàng di chuyển.
+						Bạn có thể sử dụng ở bất kỳ vị trí nào.
+					</p>
+				</div>
+
+				<!-- Item 2 -->
+				<div class="product-item">
+					<img src="product2.png" alt="Strong Cool">
+					<h3>Strong Cool®</h3>
+					<p>
+						Máy làm mát công suất lớn. Dùng nguồn điện 100V nhưng tạo
+						lưu lượng gió cực mạnh, có thể thổi xa đến 20m.
+						Giúp giảm nhiệt độ phòng từ 3°C đến 8°C.
+					</p>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="product-item">
+					<img src="product3.png" alt="Pure Drive">
+					<h3>Pure Drive (LOẠI XOAY)</h3>
+					<p>
+						Máy làm mát di động, dễ dàng di chuyển nhờ bánh xe.
+						Phù hợp sử dụng tại không gian làm việc ngoài trời,
+						nơi tổ chức sự kiện và các vị trí cần làm mát cục bộ.
+					</p>
+				</div>
+			</div>
+
+			<a href="#" class="product-btn">Liên hệ ngay</a>
+		</div>
+	</section>
+
+
+
 </main>
 <?php get_footer(); ?>
